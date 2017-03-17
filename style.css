@@ -1,0 +1,76 @@
+body {
+	background-color: #ecf0f1;
+	font-family: Montserrat, Verdana, sans-serif;
+	color: #ffffff;
+}
+.sidebar {
+	background-color: #2ecc71;
+	width: 80px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 80px;
+	border-radius: 4px;
+}
+#left {
+	float: left;
+}
+#right {
+	float: right;
+}
+.sidebar:hover {
+	background-color: #27ae60;
+}
+#center {
+	background-color: #e0e0e0;
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 4px 4px #0004;
+}
+.divide {
+	background-color: #ffffff;
+	width: 50px;
+	height: 1px;
+	margin: -12px 15px -12px 15px;
+}
+#center>h1 {
+	color: #000000;
+	margin-top: -4px;
+	margin-bottom: 14px;
+	font-size: 48px; 
+}
+#center>p {
+	background-color: #f39c12;
+	padding: 4px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin: auto;
+	width: 80%;
+}
+#center>table {
+	margin: auto;
+	padding: 20px;
+}
+.option {
+	padding: 4px;
+	background-color: #e74c3c;
+	padding: 4px 16px 4px 16px;
+	border-radius: 4px;
+	margin: 4px;
+}
+.option:hover {
+	background-color: #c0392b;
+}
+#submit>p {
+	background-color: #3498db;
+	display: inline-block;
+	padding: 2px;
+	border: 2px solid #2980b9;
+	width: 150px;
+	border-radius: 4px;
+}
+#submit>p:hover {
+	background-color: #2980b9;
+}
